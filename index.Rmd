@@ -1,0 +1,27 @@
+---
+title: ''
+output:
+  html_document
+---
+
+
+<p align = 'justify'>
+
+<font size = '4'> Beyond Microsoft: This is a project for demonstrating team collaboration on GitHub</font>
+
+</p>
+
+
+<br>
+
+```{r}
+
+data(iris)
+
+plot(iris[ , 1] ~ iris[ , 2], pch = 21, las = 1)
+
+```
+
+
+
+
