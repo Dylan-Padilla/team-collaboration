@@ -4,6 +4,7 @@ output:
   html_document
 ---
 
+<br>
 
 <p align = 'justify'>
 
@@ -14,11 +15,17 @@ output:
 
 <br>
 
+<font size='4'> I am going to modify the plot</font>
+
+<br>
+
 ```{r}
 
 data(iris)
 
-plot(iris[ , 1] ~ iris[ , 2], pch = 21, las = 1)
+plot(iris[ , 1] ~ iris[ , 2], pch = 21, col = 'orange', bg = 'black', las = 1)
+abline(lm(iris[ , 1] ~ iris[ , 2]), lwd = 2, col = 'purple')
+
 
 ```
 
